@@ -11,4 +11,5 @@ class Solution:
                 else:
                     return False
             else:
-                return True if not result else False
+                result.append(letter)
+        return True if not result else False
